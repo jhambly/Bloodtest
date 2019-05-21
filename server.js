@@ -6,7 +6,7 @@ require("./middleware/startup")(app);
 require("./routes/startup")(app);
 require("./database/db")();
 
-let port = 3000;
+let port = 80;
 const server = app.listen(port, () => {
   console.log(`Listening on port ${port}...`);
 });
