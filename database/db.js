@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const config = require("config");
 
 //let connectionString = config.get("server.connectionstring");
-let connectionString = "mongodb://user:user123@ds155192.mlab.com:55192/idexxnode";
+let connectionString = "mongodb+srv://chelsea-blake:Idexx123@cluster0-qjnou.mongodb.net/test?retryWrites=true";
 console.log(connectionString);
 
 module.exports = function () {
